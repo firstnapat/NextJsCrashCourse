@@ -1,5 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
 body {
-  background: #E22727;
+  background: #ff7961;
   color: aliceblue;
-  
+}
+
+nav {
+  margin: 10px auto;
+  padding: 10px 0;
+  background: #ff7961;
+  font-family: 'Prompt', sans-serif;
+}
+
+nav a:hover {
+  color: black;
 }

@@ -1,13 +1,15 @@
-import Image from 'next/image'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
 
+import styles from "@/styles/Home.module.css"
+import Head from 'next/head'
 export default function Home() {
   return (
     <main>
-      <Navbar/>
-      <h1>Homepage</h1>
-      <Footer/>
+      <Head>
+        <title>TangToh</title>
+        <meta name="keyword" content='ODDS|'/>
+      </Head>
+      <h1 className={styles.title}>Homepage</h1>
+
     </main>
   )
 }
