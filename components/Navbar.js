@@ -20,8 +20,8 @@ export default function Navbar() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/projects" className="text-white hover:text-gray-300">
-                                Project
+                            <Link href="/products" className="text-white hover:text-gray-300">
+                                Product
                             </Link>
                         </li>
                     </ul>
